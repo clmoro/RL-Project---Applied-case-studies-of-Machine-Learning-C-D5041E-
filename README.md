@@ -1,12 +1,7 @@
-# Installation Instructions (tested on Ubuntu 22)
+# Additional Installation Instructions (tested on Ubuntu 22)
 
 ### Steps
-1. Install Anaconda. Download it from this [link](https://repo.anaconda.com/archive/Anaconda3-2021.11-Linux-x86_64.sh).
-```
-cd Downloads/
-sudo chmod +x Anaconda3-2021.11-Linux-x86_64.sh
-./Anaconda3-2021.11-Linux-x86_64.sh
-```
+1. Install Anaconda.
 
 2. Install git.
 ```
