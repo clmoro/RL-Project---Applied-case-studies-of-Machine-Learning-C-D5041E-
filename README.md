@@ -1,4 +1,4 @@
-# Mujoco and Mujoco-py Installation Instructions for Ubuntu 22
+# Installation Instructions (tested on Ubuntu 22)
 
 ### Steps
 1. Install Anaconda. Download it from this [link](https://repo.anaconda.com/archive/Anaconda3-2021.11-Linux-x86_64.sh).
