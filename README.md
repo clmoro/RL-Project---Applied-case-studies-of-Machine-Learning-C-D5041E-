@@ -37,7 +37,7 @@ sudo apt install git
     ./simulate ../model/humanoid.xml
     ```
 
-4. Install mujoco-py.
+4. Install mujoco-py (step 4-7 are to create a clean conda environment with mujoco-py for testing installation, you can jump to step 8 for the project requirements).
 ```
 conda create --name mujoco_py python=3.8
 conda activate mujoco_py
@@ -72,11 +72,12 @@ pip install "cython<3"
 cd ~/.mujoco/mujoco-py/examples
 python3 setting_state.py
 ```
-8.  RL environment - Open new terminal
+8.  Project environment - Open new terminal
 ```
 cd
 git clone https://github.com/Asad-Shahid/RL-Project-D5041E.git
 cd /RL-Project-D5041E/panda
 conda env create -f environment.yml
 conda activate rl-project
+pip install "cython<3"
 python -m rl.main
